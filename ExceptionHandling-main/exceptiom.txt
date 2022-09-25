@@ -1,0 +1,20 @@
+exception yazdığımız uygulamalarda kodlara yönelik yapmış oldugumuz hatalar
+exceptionu kodlar ile kontrol altına alabiliyoruz
+errorlar bizim kodlarla müdahale edemeyeceğimiz hatalardır mesela sanal makine hataları
+bütün hatalar exception classından inherit edilir yani extend edilir 
+runtime exception unchecked exceptiondur bizim onları kontrol altına almamız lazım java bunları kontrol etmiyo demektir 
+	arithmetic exception sayısal hatalar yani bir yaş girilsin istiyoruz belli bir sınırın dısındaysa
+	nullpointer exception referansı olmayan bir nesneyi kullanmaya çalıştığımızda
+	classcast exception tip dönüşüm hatası
+	indexoutofboundexception arraylerle alakalı sınırların dışına çıkılması
+checked exceptionlar:
+	ıo exception
+	sql exception
+	awt exception 
+
+bütün exceptionlar exception classından inherit edilir
+İsminden de anlaşılacağı gibi derleyici tarafından kontrol edilemeyen exceptionlardır.
+Derleyici tarafından kontrol edilemedikleri için kodumuz başarıyla derlenmiş olsa bile çalışma zamanında bu hatalarla karşılaşabiliriz.
+Checked Exception
+İsminden de anlaşılacağı üzere derleyici tarafından kontrol edilen exceptionlardır. Derleyici tarafından kontrol edildikleri için biz bu exceptionları
+kodumuzda belirtmek zorundayız. Aksi halde derleme işlemini başarıyla tamamlamak mümkün değildir.	
